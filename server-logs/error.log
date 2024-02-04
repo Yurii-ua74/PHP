@@ -2,3 +2,4 @@
 [Sat Feb 03 11:12:57.833895 2024] [authz_core:error] [pid 5924:tid 1872] [client ::1:50519] AH01630: client denied by server configuration: C:/Users/Yurii/Desktop/PHP/favicon.ico, referer: http://ypspd-111.loc/
 [Sat Feb 03 11:14:12.975055 2024] [authz_core:error] [pid 5924:tid 1864] [client ::1:50556] AH01630: client denied by server configuration: C:/Users/Yurii/Desktop/PHP/
 [Sat Feb 03 11:14:13.030105 2024] [authz_core:error] [pid 5924:tid 1864] [client ::1:50556] AH01630: client denied by server configuration: C:/Users/Yurii/Desktop/PHP/favicon.ico, referer: http://ypspd-111.loc/
+[Sun Feb 04 11:01:16.541514 2024] [php:error] [pid 13012:tid 1888] [client ::1:51174] script 'C:/Users/Yurii/Desktop/PHP/basics.php' not found or unable to stat, referer: http://ypspd111.loc/
