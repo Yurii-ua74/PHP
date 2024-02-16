@@ -1,5 +1,5 @@
 <h1>API та бекенд</h1>
-<div class="card-panel purple">
+<div class="card-panel orange darken-2">
 	<button class="btn" onclick="getClick()">CREATE</button>
 	<button class="btn indigo" onclick="postClick()">POST</button>
 	<div id="api-result"></div>
@@ -39,6 +39,7 @@ function postClick() {
 	.then(r => r.text())
 	.then(t => {
 		document.getElementById("api-result").innerText = t;
+		window.location.href = 'log_book';
 	});
 }
 </script>

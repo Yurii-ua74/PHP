@@ -49,10 +49,14 @@ if( $uri != "" ) {
 
 // створюємо маршрутизацію
 $routes = [
-	''       => 'index.php',
-	'basics' => 'basics.php',
-	'layout' => 'layout.php',
-	'api'    => 'api.php',
+	''         => 'index.php',
+	'basics'   => 'basics.php',
+	'layout'   => 'layout.php',
+	'api'      => 'api.php',
+	'registration_form' => 'registration_form.php',
+	'modal_form' => 'modal_form.php',
+	'register' => 'register.php',
+	'log_book' => 'log_book.php',
 ] ;
 if( isset( $routes[ $uri ] ) ) {   // у маршрутах є відповідний запис
 	$page_body = $routes[ $uri ] ;

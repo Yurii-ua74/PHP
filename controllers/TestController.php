@@ -18,7 +18,7 @@ class TestController {
 		}
 	}
 	
-	protected function connect_db_or_exit() { // Встановлює з'єднання з базою даних MySQL за допомогою PDO
+	public function connect_db_or_exit() { // Встановлює з'єднання з базою даних MySQL за допомогою PDO
 		try {
 			return new PDO(
 				'mysql:host=localhost;dbname=php_spd_111;charset=utf8mb4', 
@@ -63,6 +63,8 @@ class TestController {
 	// do_post() метод:
     // Просто виводить повідомлення "Hello from do_post".
 	protected function do_post() {
-		echo "Hello from do_post" ;
+		
+    exit();		
 	}
+
 }
