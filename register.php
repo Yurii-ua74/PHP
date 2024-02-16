@@ -93,7 +93,7 @@ $avatar   = $_POST['avatar'];
 if(empty($email) || empty($name) || 
    empty($password) || empty($rep_pass) || empty($avatar))
    {
-    //header("Location: registration_form");
+    header("Location: registration_form");
     exit();
    }
 else{

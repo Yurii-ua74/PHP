@@ -18,7 +18,7 @@
         <input type="password" name="password" placeholder="Введіть password" class="form-control" 
      minlength="4" maxlength="8" pattern="^[a-zA-Z0-9]{4,8}$" required><br>
         <input type="password" name="repeat_password" placeholder="Повторіть password" class="form-control" required><br>        
-        <button type="button" name="send" class="btn waves-effect waves-light btn-success modal-close mt-3" onclick="checkUser()">
+        <button type="submit" name="send" class="btn waves-effect waves-light btn-success  mt-3" onclick="checkUser()">
             Відправити<i class="material-icons right">send</i>    
         </button>
     </form>
