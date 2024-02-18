@@ -99,3 +99,5 @@
 [Fri Feb 16 21:04:30.555150 2024] [php:warn] [pid 4360:tid 1852] [client ::1:50977] PHP Warning:  Undefined array key "avatar" in C:\\Users\\Yurii\\Desktop\\PHP\\register.php on line 91, referer: http://ypspd111.loc/modal_form
 [Fri Feb 16 21:08:34.307411 2024] [php:warn] [pid 4360:tid 1868] [client ::1:51007] PHP Warning:  Undefined array key "name" in C:\\Users\\Yurii\\Desktop\\PHP\\register.php on line 86, referer: http://ypspd111.loc/modal_form
 [Fri Feb 16 21:08:34.364072 2024] [php:warn] [pid 4360:tid 1868] [client ::1:51007] PHP Warning:  Undefined array key "avatar" in C:\\Users\\Yurii\\Desktop\\PHP\\register.php on line 91, referer: http://ypspd111.loc/modal_form
+[Fri Feb 16 21:43:04.279108 2024] [php:warn] [pid 4360:tid 1860] [client ::1:51322] PHP Warning:  Undefined array key "name" in C:\\Users\\Yurii\\Desktop\\PHP\\register.php on line 86, referer: http://ypspd111.loc/modal_form
+[Fri Feb 16 21:43:04.329354 2024] [php:warn] [pid 4360:tid 1860] [client ::1:51322] PHP Warning:  Undefined array key "avatar" in C:\\Users\\Yurii\\Desktop\\PHP\\register.php on line 91, referer: http://ypspd111.loc/modal_form
