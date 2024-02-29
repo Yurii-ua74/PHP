@@ -1,6 +1,6 @@
 <?php
 // Підключення файлу TestController.php
-include 'controllers/TestController.php';
+include_once '<controllers/TestController.php';
 
 ?>
 

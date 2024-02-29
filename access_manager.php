@@ -7,7 +7,7 @@ $uri = $_SERVER['REQUEST_URI'] ;
 // якщо у запиті є "?" то відрізаємо після нього
 $pos = strpos( $uri, '?' ) ;
 if( $pos > 0 ) {
-	$uri = substr( $uri, 1, $pos ) ;
+	$uri = substr( $uri, 1, $pos-1 ) ;
 }
 else {
 	$uri = substr( $uri, 1 ) ;
@@ -57,6 +57,8 @@ $routes = [
 	'modal_form' => 'modal_form.php',
 	'register' => 'register.php',
 	'log_book' => 'log_book.php',
+	'studio' => 'studio.php',
+	'log_out' => 'log_out.php'
 ] ;
 if( isset( $routes[ $uri ] ) ) {   // у маршрутах є відповідний запис
 	$page_body = $routes[ $uri ] ;

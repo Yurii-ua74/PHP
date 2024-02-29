@@ -14,7 +14,7 @@ class TestController extends ApiController {
 			`id`        CHAR(36)      PRIMARY KEY  DEFAULT ( UUID() ),
 			`email`     VARCHAR(128)  NOT NULL,
 			`name`      VARCHAR(64)   NOT NULL,
-			`password`  CHAR(32)      NOT NULL     COMMENT 'Hash of password',
+			`password`  CHAR(100)      NOT NULL     COMMENT 'Hash of password',
 			`avatar`    VARCHAR(128)  NULL
 		) ENGINE = INNODB, DEFAULT CHARSET = utf8mb4";
 		try {

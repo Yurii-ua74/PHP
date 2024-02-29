@@ -40,6 +40,19 @@ intval( x / y ) = <?= intval( $x / $y ) ?>
 Управління формуванням HTML - умовна та циклічна верстка.
 
 </p>
+
+
+<!-- хешування пароля -->
+<?php
+  $myPwd = '1234567';
+  $hash = password_hash($myPwd, PASSWORD_DEFAULT);
+  var_dump($hash);
+// порівняння паролів
+$verifyPwd = password_verify($myPwd, $hash);
+var_dump($verifyPwd);
+?>
+
+
 <?php 
 	$arr1 = [1,2,3,4,5] ;   // звичайний масив
 	$arr2 = [ 'name2' => 'Petrovich', "age" => 42 ] ;   # асоціативний масив

@@ -4,6 +4,8 @@ RewriteEngine on
 RewriteCond %{REQUEST_URI} !^/wwwroot/img/
 # Виключення для modal_form
 RewriteCond %{REQUEST_URI} !^/modal_form.php/
+# Виключення для check_session.php
+RewriteCond %{REQUEST_URI} !^/check_session.php/
 # Виключення для checkUser
 RewriteCond %{REQUEST_URI} !^/checkUser.php/
 # будь-які запити (.*) перетворюємо у access_manager.php

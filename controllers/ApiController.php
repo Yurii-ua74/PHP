@@ -33,5 +33,11 @@ class ApiController{
 		
 	}
 
+	protected function end_with( $result ) {
+		header( 'Content-Type: application/json' ) ;
+		echo json_encode( $result ) ;
+		exit ;
+	}
+
 }
 
