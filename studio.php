@@ -85,7 +85,7 @@ form {
 
 <div class="card home">    
 <img class="avatar" src="/wwwroot/img/<?php echo $userAvatar; ?>" alt="Avatar"/>    
-    <h1>Привет, <?php echo $userName; ?>!</h1>
+    <h1>Привіт, <?php echo $userName; ?>!</h1>
     <form action="log_out" method="post"> 
         <button type="submit" name="logout" class="btn-flat orange darken-2">Вийти із аккаунта</button>
     </form> 
